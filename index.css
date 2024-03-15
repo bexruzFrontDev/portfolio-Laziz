@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 60px;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  gap: 50px;
+  padding: 60px 150px;
+}
+main img {
+  width: 400px;
+  border-radius: 50%;
+}
+.card-red {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-red a{
+    background-color: red;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+.card-green {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-green a{
+    background-color: green;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+}
