@@ -16,6 +16,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
+  align-items: start;
   gap: 50px;
   padding: 60px  clamp(2.5rem, 12.5vw, 9.375rem);
 }
