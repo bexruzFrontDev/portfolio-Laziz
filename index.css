@@ -17,7 +17,7 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
   gap: 50px;
-  padding: 60px 150px;
+  padding: 60px  clamp(2.5rem, 12.5vw, 9.375rem);
 }
 main img {
   width: 400px;
